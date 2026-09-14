@@ -1,0 +1,121 @@
+body {
+    font-family: 'Times New Roman';
+    background: #ffbebe;
+    color: #ffffff;
+}
+
+header + nav {
+    margin-bottom: 100px;
+}
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 8%;
+    background: #600000;
+    border-bottom: 2px solid #300000;
+    border-radius: 18px;
+
+}
+
+.header-bar h1 {
+    font-family: Brush Script MT;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.header-links {
+    display: flex;
+    gap: 25px;
+    color: #ffffff;
+}
+
+header a {
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    padding: 8px 8%;
+    background: #600000;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 18px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+    justify-content: space-around;
+}
+
+.nav-links a {
+    color: #ffffff;
+}
+
+section {
+    margin: 20px 0;
+    padding: 35px;
+    background: #400000;
+    border: 2px solid #300000;
+    border-radius: 18px;
+    color: #ffffff;
+}
+
+section h3 {
+    font-size: 1.8rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#intro {
+    text-align: center;
+}
+
+#skills li {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    color: #ffffff;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.gallery img {
+    width: 100%;
+    height: 300px;
+}
+
+button {
+    color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 50px;
+    background: #400000;
+    border-radius: 18px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+footer p {
+    color: #ffffff;
+}
+
